@@ -1,0 +1,630 @@
+body{
+   background-color: #f9f9f9;
+}
+.toubu{
+    width: 100%;
+    height: 314px;
+    background: url(../uploads/定制旅游_02.jpg) no-repeat 0px 0 / 100%;
+}
+.container {
+    width: 1080px ;
+    height: 1400px; 
+    margin: 0 auto;
+}
+.biaozhi{
+    box-sizing: border-box;
+    padding-top: 95px;
+    padding-left: 110px;
+    width: 1080px ;
+    height: 365px;
+    background-color: #f9f9f9;
+}
+.biaozhi li{
+    float: left;
+    width: 121px ;
+    height: 177px;
+    margin-right: 133px;
+    font-size: 12px;
+     color: #666666;
+     text-align: center;
+}
+.biaozhi li:last-child{
+     margin-right: 0;
+     
+}
+.biaozhi li h4{
+    margin-top: 12px;
+}
+.biaozhi li p{
+    margin-top: 11px;
+}
+.pic1{
+   width: 118px;
+   height: 118px;
+    border: 2px solid #009fe9;
+    border-radius: 50%;
+    background: url(../images/个性化定制.png) no-repeat center;
+}
+.pic2{
+   width: 118px;
+   height: 118px;
+    border: 2px solid #009fe9;
+    border-radius: 50%;
+    background: url(../images/价格清晰.png) no-repeat center;
+}
+.pic3{
+   width: 118px;
+   height: 118px;
+    border: 2px solid #009fe9;
+    border-radius: 50%;
+    background: url(../images/专业可靠.png) no-repeat center;
+}
+.pic4{
+   width: 118px;
+   height: 118px;
+    border: 2px solid #009fe9;
+    border-radius: 50%;
+    background: url(../images/一站式服务.png) no-repeat center;
+}
+
+.biaozhi li:hover .pic1 {
+    animation: myrotate1 2s linear infinite,
+        move1 2s linear infinite;
+}
+ @keyframes myrotate1 {
+    0%,
+    100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+@keyframes move1 {
+    0%,
+    100% {
+        border-color: #009fe9;
+        background: url(../images/个性化定制.png) no-repeat center;
+}
+    24.9% {
+        border-color: #009fe9;
+        background: url(../images/个性化定制.png) no-repeat center;
+}
+    25% {
+        border-color: #eb3174;
+        background: url(../images/个性化定制2.png) no-repeat center;
+}
+    74.9% {
+        border-color: #eb3174;
+        background: url(../images/个性化定制2.png) no-repeat center;
+}
+    75% {
+        border-color: #009fe9;
+        background: url(../images/个性化定制.png) no-repeat center;
+    }
+}
+.biaozhi li:hover .pic2 {
+    animation: myrotate2 2s linear infinite,
+        move2 2s linear infinite;
+}
+ @keyframes myrotate2 {
+    0%,
+    100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+@keyframes move2 {
+    0%,
+    100% {
+        border-color: #009fe9;
+        background: url(../images/价格清晰.png)  no-repeat center;
+}
+    24.9% {
+        border-color: #009fe9;
+        background: url(../images/价格清晰.png)  no-repeat center;
+}
+    25% {
+        border-color: #eb3174;
+        background: url(../images/价格清晰2.png) no-repeat center;
+}
+    74.9% {
+        border-color: #eb3174;
+        background: url(../images/价格清晰2.png) no-repeat center;
+}
+    75% {
+        border-color: #009fe9;
+        background: url(../images/价格清晰.png) no-repeat center;
+    }
+}
+.biaozhi li:hover .pic3 {
+    animation: myrotate3 2s linear infinite,
+        move3 2s linear infinite;
+}
+ @keyframes myrotate3 {
+    0%,
+    100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+@keyframes move3 {
+    0%,
+    100% {
+        border-color: #009fe9;
+        background: url(../images/专业可靠.png)  no-repeat center;
+}
+    24.9% {
+        border-color: #009fe9;
+        background: url(../images/专业可靠.png)  no-repeat center;
+}
+    25% {
+        border-color: #eb3174;
+        background: url(../images/专业可靠2.png) no-repeat center;
+}
+    74.9% {
+        border-color: #eb3174;
+        background: url(../images/专业可靠2.png) no-repeat center;
+}
+    75% {
+        border-color: #009fe9;
+        background: url(../images/专业可靠.png) no-repeat center;
+    }
+}
+.biaozhi li:hover .pic4 {
+    animation: myrotate4 2s linear infinite,
+        move4 2s linear infinite;
+}
+ @keyframes myrotate4 {
+    0%,
+    100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+@keyframes move4 {
+    0%,
+    100% {
+        border-color: #009fe9;
+        background: url(../images/一站式服务.png)  no-repeat center;
+}
+    24.9% {
+        border-color: #009fe9;
+        background: url(../images/一站式服务.png)  no-repeat center;
+}
+    25% {
+        border-color: #eb3174;
+        background: url(../images/一站式服务2.png) no-repeat center;
+}
+    74.9% {
+        border-color: #eb3174;
+        background: url(../images/一站式服务2.png) no-repeat center;
+}
+    75% {
+        border-color: #009fe9;
+        background: url(../images/一站式服务.png) no-repeat center;
+    }
+}
+.banada{
+    position: relative;
+    margin: 0 auto;
+    width:1044px ;
+    height: 540px;
+    background-color: rosybrown;
+}
+.dingwei{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 252px;
+    height: 300px;
+    color: lavenderblush;
+    margin-left: 15px;
+}
+.box{
+    width:  212px;
+    border-bottom: 2px solid #fff;
+}
+.dingwei h3 {
+    margin-top: 20px;
+}
+.dingwei p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.banada .box1{
+    float: left;
+    width: 252px;
+    height: 540px;
+    background: url(../uploads/定制旅游_20.jpg) no-repeat -350px 0 ;
+}
+.banada .box1:hover{
+    width:1044px ;
+    height: 540px;
+    background-image:100% ;
+}
+
+.banada .box2{
+    position: relative;
+    float: left;
+    width: 342px;
+    height: 540px;
+    background: url(../uploads/定制旅游_21.jpg) -660px 0;
+}
+.box2dingwei{
+    position: absolute;
+    left:58px ;
+    bottom: 50px;
+    width: 225px; 
+    height: 183px;
+    background-color: #fff;
+    opacity: 0.9;
+
+}
+.box2dingwei p{
+    text-align: center;
+    color: #099fe9;
+}
+.box2dingwei p:nth-child(1){
+    margin-top: 30px;
+}
+.box2dingwei p:nth-child(2){
+    margin: 0 auto;
+    width: 180px;
+    border-top:2px  solid #099fe9 ;
+    font-size:20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.banada .box3{
+    float: left;
+    width: 450px;
+    height: 540px;
+}
+.banada .box3 ul li{
+    float: left;
+    width: 225px;
+    height: 270px;
+}
+.banada .box3 ul li:nth-child(1){
+    position: relative;
+    overflow: hidden;
+    background: url(../uploads/定制旅游_22.jpg) 540px -200px;
+}
+.banada .box3 ul li:nth-child(2){
+    position: relative;
+    overflow: hidden;
+    background: url(../uploads/定制旅游_23.jpg) 600px -220px;
+}
+.banada .box3 ul li:nth-child(3){
+    background: url(../uploads/定制旅游_25.jpg) 790px -30px;
+}
+.banada .box3 ul li:nth-child(4){
+    background: url(../uploads/定制旅游_26.jpg) 350px 0px;
+}
+.box3 .box4{
+    position: absolute;
+    right: -70px;
+    top: 10px;
+    width: 200px;
+    height: 25px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    background-color: red;
+    transform: rotate(25deg);
+}
+.box3 .box5{
+    position: absolute;
+    right: -70px;
+    top: 10px;
+    width: 200px;
+    height: 25px;
+     color: #fff;
+    line-height: 25px;
+    text-align: center;
+    background-color: blue;
+    transform: rotate(25deg);
+}
+.weibu{
+    padding-top: 60px;
+    width: 1080px;
+    height: 327px;
+}
+.shang {
+    height: 41px;
+    border-left: 5px solid #099fe9 ;
+    box-sizing: border-box;
+    padding-top:6px;
+    padding-left: 10px;
+    line-height: 1;
+}
+.shang span{
+    font-size: 12px;
+    color: #666666;
+}
+.xia{
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.xia ul li {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-right: 47px;
+    width: 228px;
+    height: 266px;
+    color: #666666;
+    transition: all .5s;
+    background-color: #fff;
+}
+
+.xia ul li:hover{
+    transform: scale(1.1);
+}
+.xia ul li:last-child{
+     margin-right: 0px;
+}
+.xia ul li img{
+    width: 100%;
+    height: 134px;
+}
+.xia ul li p{
+   margin-top: 5px;
+}
+.xia .box {
+    position: relative;
+    width: 228px;
+    height: 266px;
+}
+
+.xia .box1 {
+    position: absolute;
+    top: -9px;
+    left: -8px;
+    width: 238px;
+    height: 276px;
+    border-left: 2px solid #fff;
+    border-right:2px solid #fff;
+    transition: all 1s;
+    transform: scale3d(1, 0, 1);
+}
+
+.xia   .box:hover .box1 {
+    border-left: 2px solid #099fe9;
+    border-right: 2px solid #099fe9;
+    transform: scale3d(1, 1, 1);
+    transition: transform 0.5s;
+}
+
+.xia .box2 {
+    position: absolute;
+    top: -10px;
+    left:-8px;
+    width: 242px;
+    height: 276px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 1s;
+    transform: scale3d(0, 1, 1);
+}
+
+.xia  .box:hover .box2 {
+    border-top:2px solid #099fe9;
+    border-bottom:2px solid #099fe9;
+    transform: scale3d(1, 1, 1);
+    transition: transform 0.5s;
+}
+.mainBox2 {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 18px 18px 0px;
+    height: 576px;
+    background-color: #fff;
+}
+.mainBox2 .contentBox {
+    position: absolute;
+    float: left;
+    height: 100%;
+    background-color: tomato;
+}
+.mainBox2 .contentBox:first-child {
+    top: 18px;
+    left: 18px;
+    width: 252px;
+    height: 540px;
+    background: url(../uploads/定制旅游_20.jpg) no-repeat;
+    background-position: -350px 0px;
+    transition: all 0.3s;
+}
+.mainBox2 .contentBox:hover {
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, .5);
+    }
+
+.mainBox2 .contentBox:first-child:hover {
+    z-index: 10;
+    width: 1044px;
+    height: 540px;
+    background-position: 0px 0px;
+}
+
+.mainBox2 .contentBox:nth-child(2) {
+    top: 18px;
+    left: 270px;
+    width: 342px;
+    height: 540px;
+    background: url(../uploads/定制旅游_21.jpg) no-repeat center;
+    background-position: -670px 0px;
+    transition: all 0.3s;
+}
+.mainBox2 .contentBox:nth-child(2):hover {
+    z-index: 10;
+    left: 18px;
+    width: 1044px;
+    height: 540px;
+    background-position: 0px 0px;
+}
+        .mainBox2 .contentBox:nth-child(2) .txtBox {
+            width: 252px;
+            height: 180px;
+            margin: 310px 0 0 45px;
+            padding-top: 42px;
+            background-color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            transition: all 0.1s;
+        }
+        .mainBox2 .contentBox:nth-child(2) .txtBox p:first-child {
+            color: #00a0e9;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .mainBox2 .contentBox:nth-child(2) .txtBox p:last-child {
+            color: #00a0e9;
+            margin: 18px auto 0;
+            width: 200px;
+            font-size: 20px;
+            line-height: 44px;
+            border-top: 2px solid #009fe9;
+
+        }
+        .mainBox2 .contentBox:nth-child(2):hover .txtBox {
+            visibility: hidden;
+        }
+        .mainBox2 .contentBox:nth-child(n+3) {
+            width: 225px;
+            height: 270px;
+        }
+        .mainBox2 .contentBox:nth-child(3) {
+            overflow: hidden;
+            top: 18px;
+            left: 612px;
+            background: url(../uploads/定制旅游_22.jpg) no-repeat;
+            background-position: -500px -200px;
+            transition: all 0.3s;
+        }
+        .mainBox2 .contentBox:nth-child(3)::after {
+            position: absolute;
+            right: -70px;
+            top: 10px;
+            width: 200px;
+            height: 25px;
+            background-color: #f54142;
+            content: '推荐';
+            color: #fff;
+            font-size: 16px;
+            /* font-weight: 600; */
+            line-height: 25px;
+            text-align: center;
+            transform: rotate(25deg);
+        }
+        .mainBox2 .contentBox:nth-child(3):hover {
+            z-index: 10;
+            left: 18px;
+            width: 1044px;
+            height: 540px;
+            background-position: 0px 0px;
+        }
+        .mainBox2 .contentBox:nth-child(4) {
+            overflow: hidden;
+            top: 18px;
+            left: 837px;
+            background: url(../uploads/定制旅游_23.jpg) no-repeat;
+            background-position: -450px -220px;
+            transition: all 0.3s;
+        }
+        .mainBox2 .contentBox:nth-child(4)::after {
+            position: absolute;
+            right: -70px;
+            top: 10px;
+            width: 200px;
+            height: 25px;
+            background-color: #44b15e;
+            content: '特惠';
+            color: #fff;
+            font-size: 16px;
+            /* font-weight: 600; */
+            line-height: 25px;
+            text-align: center;
+            transform: rotate(25deg);
+        }
+
+        .mainBox2 .contentBox:nth-child(4):hover {
+            z-index: 10;
+            left: 18px;
+            width: 1044px;
+            height: 540px;
+            background-position: 0px 0px;
+        }
+        .mainBox2 .contentBox:nth-child(5) {
+            top: 288px;
+            left: 612px;
+            background: url(../uploads/定制旅游_25.jpg) no-repeat;
+            background-position: -210px -40px;
+            transition: all 0.3s;
+        }
+        .mainBox2 .contentBox:nth-child(5):hover {
+            z-index: 10;
+            top: 18px;
+            left: 18px;
+            width: 1044px;
+            height: 540px;
+            background-position: 0px 0px;
+        }
+        .mainBox2 .contentBox:nth-child(6) {
+            top: 288px;
+            left: 837px;
+            background: url(../uploads/定制旅游_26.jpg) no-repeat;
+            background-position: -700px 0;
+            transition: all 0.3s;
+        }
+        .mainBox2 .contentBox:nth-child(6):hover {
+            z-index: 10;
+            top: 18px;
+            left: 18px;
+            width: 1044px;
+            height: 540px;
+            background-position: 0px 0px;
+        }
+        .mainBox2 .contentBox:first-child .txtBox {
+            width: 215px;
+            margin: 0 0 0 18px;
+            color: #fff;
+        }
+        .mainBox2 .contentBox:first-child .topp {
+            position: relative;
+            z-index: 11;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #fff;
+            line-height: 56px;
+        }
+        .mainBox2 .contentBox:first-child .topp h4 {
+            font-size: 20px;
+        }
+        .mainBox2 .contentBox:first-child .topp p:nth-child(2) {
+            font-size: 16px;
+        }
+        .mainBox2 .contentBox:first-child .topp p:nth-child(3) {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+.mainBox2 .contentBox:first-child .buttom {
+    position: relative;
+    z-index: 11;
+    width: 215px;
+    margin-top: 35px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.mainBox2 .contentBox:nth-child(2) p {
+    color: #fff;
+}

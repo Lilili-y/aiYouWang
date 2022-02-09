@@ -1,0 +1,266 @@
+.jingxuan {
+    background-color: #f9f9f9;
+}
+.jingxuan .datu {
+    width: 100%;
+    height: 314px;
+    margin: 0 auto;
+    background: url(../uploads/定制旅游_02.jpg) no-repeat 0 0/cover;
+}
+.jingxuan .chaozhi {
+    position: relative;
+    width: 1080px;
+    height: 1446px;
+    margin: 0 auto;
+    background:#fff url(../images/飞行轨迹.jpg) no-repeat center 300px/530px auto
+}
+.jingxuan .chaozhi h2 {
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #424242;
+}
+.jingxuan .chaozhi .fly {
+    width: 26px;
+    height: 27px;
+    position: absolute;
+    top: 310px;
+    left: 470px;
+}
+.jingxuan .chaozhi .d1 .imgbox{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    width: 430px;
+    height: 270px;
+    border-radius: 70px;
+}
+.jingxuan .chaozhi .d1 .imgbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 430px;
+    height: 270px;
+    border: 1px dashed #f9f9f9;
+    border-radius: 70px;
+    opacity: 0;
+    z-index: 998;
+}
+.jingxuan .chaozhi .d1 .imgbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+    transition: all 1s;
+}
+.jingxuan .chaozhi .d1 .imgbox:hover img{
+    transform: scale(1.2);
+}
+.jingxuan .chaozhi .d1 .imgbox:hover::before{
+    transform: scale(1);
+    opacity: 1;
+}
+.jingxuan .chaozhi .d1 .txtbox {
+    position: absolute;
+    top: 235px;
+    left: 475px;
+    height: 60px;
+    width: 350px;
+}
+.jingxuan .chaozhi .d1 .txtbox img {
+    float: left;
+    width: 45px;
+    height: 30px;
+    margin-top: 15px;
+} 
+.jingxuan .chaozhi .d1 .txtbox h4 {
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: #999;
+    margin-left: 75px;
+}
+.jingxuan .chaozhi .d1 .txtbox p {
+    font-size: 15px;
+    color: #666;
+    margin-left: 75px;
+}
+.jingxuan .chaozhi .d1 .txtbox span {
+    font-size: 18px;
+    color: #ff6537;
+}
+.jingxuan .chaozhi .d2 .imgbox{
+    position: absolute;
+    top: 560px;
+    right: 25px;
+    width: 270px;
+    height: 235px;
+    border-radius: 36px;
+}
+.jingxuan .chaozhi .d2 .imgbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 235px;
+    border: 1px dashed #f9f9f9;
+    border-radius: 36px;
+    opacity: 0;
+    z-index: 999;
+}
+.jingxuan .chaozhi .d2 .imgbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 36px;
+    transition: all 1s;
+}
+.jingxuan .chaozhi .d2 .imgbox:hover img{
+    transform: scale(1.2);
+}
+.jingxuan .chaozhi .d2 .imgbox:hover::before{
+    transform: scale(1);
+    opacity: 1;
+}
+.jingxuan .chaozhi .d2 .txtbox {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    height: 60px;
+    width: 300px;
+}
+.jingxuan .chaozhi .d2 .txtbox img {
+    float: left;
+    width: 45px;
+    height: 30px;
+} 
+.jingxuan .chaozhi .d2 .txtbox h4 {
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: #999;
+}
+.jingxuan .chaozhi .d2 .txtbox p {
+    font-size: 15px;
+    color: #666;
+}
+.jingxuan .chaozhi .d2 .txtbox span {
+    font-size: 18px;
+    color: #ff6537;
+}
+.jingxuan .chaozhi .d3 .imgbox{
+    position: absolute;
+    top: 800px;
+    left: 10px;
+    width: 260px;
+    height: 160px;
+    border-radius: 20px;
+}
+.jingxuan .chaozhi .d3 .imgbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 160px;
+    border: 1px dashed #f9f9f9;
+    border-radius: 36px;
+    opacity: 0;
+    z-index: 999;
+}
+.jingxuan .chaozhi .d3 .imgbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 36px;
+    transition: all 1s;
+}
+.jingxuan .chaozhi .d3 .imgbox:hover img{
+    transform: scale(1.2);
+}
+.jingxuan .chaozhi .d3 .imgbox:hover::before{
+    transform: scale(1);
+    opacity: 1;
+}
+.jingxuan .chaozhi .d3 .txtbox {
+    position: absolute;
+    top: 725px;
+    left: 110px;
+    height: 60px;
+    width: 300px;
+}
+.jingxuan .chaozhi .d3 .txtbox img {
+    float: right;
+    width: 45px;
+    height: 30px;
+} 
+.jingxuan .chaozhi .d3 .txtbox h4 {
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: #999;
+}
+.jingxuan .chaozhi .d3 .txtbox p {
+    font-size: 15px;
+    color: #666;
+}
+.jingxuan .chaozhi .d3 .txtbox span {
+    font-size: 18px;
+    color: #ff6537;
+}
+.jingxuan .chaozhi .d4 .imgbox{
+    position: absolute;
+    bottom: 200px;
+    right: 25px;
+    width: 550px;
+    height: 280px;
+    border-radius: 20px;
+}
+.jingxuan .chaozhi .d4 .imgbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px;
+    height: 280px;
+    border: 1px dashed #f9f9f9;
+    border-radius: 100px;
+    opacity: 0;
+    z-index: 999;
+}
+.jingxuan .chaozhi .d4 .imgbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    transition: all 1s;
+}
+.jingxuan .chaozhi .d4 .imgbox:hover img{
+    transform: scale(1.2);
+}
+.jingxuan .chaozhi .d4 .imgbox:hover::before{
+    transform: scale(1);
+    opacity: 1;
+}
+.jingxuan .chaozhi .d4 .txtbox {
+    position: absolute;
+    right: 257px;
+    bottom: 503px;
+    height: 60px;
+    width: 300px;
+}
+.jingxuan .chaozhi .d4 .txtbox img {
+    float: right;
+    width: 45px;
+    height: 30px;
+} 
+.jingxuan .chaozhi .d4 .txtbox h4 {
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: #999;
+}
+.jingxuan .chaozhi .d4 .txtbox p {
+    font-size: 15px;
+    color: #666;
+}
+.jingxuan .chaozhi .d4 .txtbox span {
+    font-size: 18px;
+    color: #ff6537;
+}

@@ -1,0 +1,239 @@
+.toubu{
+    width: 100%;
+    height: 314px;
+    background: url(../uploads/周边游_02.jpg) no-repeat 0px 0 / 100%;
+}
+.container{
+    width: 1080px ;
+    height: 1600px; 
+    margin: 0 auto;
+}
+.w .sousuo{
+    position: relative;
+    width: 1080px;
+    height:90px ;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #ccc;
+}
+.w .sousuo input{
+    margin-top: 42px;
+    margin-left: 20px;
+    width: 211px;
+    height: 27px;
+}
+.w .sousuo a{
+    position: absolute;
+    top: 48px;
+    left: 210px;
+   display: block;
+   width: 20px;
+   height: 20px;
+   background: url(../images/搜索.png);
+}
+.sousuoxia{
+    width: 1080px;
+    height: 149px;
+    background-color: thistle;
+}
+.sousuoxia .box1{
+    box-sizing: border-box;
+    width: 1080px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px dashed #dfdfdf;
+}
+.sousuoxia .box2{
+    box-sizing: border-box;
+    width: 1080px;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px dashed #dfdfdf;
+}
+.sousuoxia .box2 a{
+    color: #666666;
+    margin-right: 40px;
+    padding: 5px;
+}
+.sousuoxia .box2 a:hover{
+    color: #fff;
+   background-color : #099fe9 ;
+}
+.sousuoxia .box3{
+    position: relative;
+    box-sizing: border-box;
+    width: 1080px;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 37px;
+    background-color: #f9f9f9;
+    border-bottom: 1px dashed #dfdfdf;
+}
+.sousuoxia .box3 span {
+    color: #666666;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+.sousuoxia .box3 span:hover{
+    padding: 0px 8px;
+    background-color: #099fe9;
+    color: #fff;
+}
+.sousuoxia .box3 a{
+    color: #666666;
+    margin-right: 10px;
+    padding: 5px;
+}
+.sousuoxia .box3 a:hover{
+    color: #fff;
+   background-color : #099fe9 ;
+}
+.sousuoxia .box4{
+    box-sizing: border-box;
+    width: 1080px;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 30px;
+    background-color: #f9f9f9;
+    border-bottom: 1px dashed #dfdfdf;
+}
+.sousuoxia .box4 a{
+    color: #666666;
+    margin-right: 40px;
+    padding: 5px;
+}
+.sousuoxia .box4 a:hover{
+    color: #fff;
+   background-color : #099fe9 ;
+}
+.banana{
+    margin-left: 25px;
+}
+.banana ul li{
+    position: relative;
+    float: left;
+    width: 315px;
+    height: 245px;
+    margin-right: 45px;
+    margin-top: 68px;
+}
+.banana ul li:nth-child(3n){
+    margin-right: 0;
+}
+.banana ul li img{
+    width: 315px;
+    height: 187px;
+     transition: all .5s;
+}
+.fangda{
+    width: 315px;
+    height: 187px;
+    overflow: hidden;
+}
+.fangdaxia {
+    width: 315px;
+    height: 58px;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+.banana ul li img:hover{
+    transform: scale(1.2);
+}
+.banana ul li h4 {
+    font-weight: 400;
+    color: #666666;
+    font-size: 12px;
+    height:20px ;
+    line-height: 20px;
+}
+.banana ul li p {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #099fe9;
+}
+.banana ul li p span {
+    font-size: 14px;
+}
+.banana ul li p del {
+    font-size: 10px;
+    color: #666666;
+}
+.banana ul li button{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    width: 126px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    background-color: #099fe9;
+    border-radius: 5px ;
+}
+.banana ul li button:hover{
+    background-color:#15c09f ;
+    color: #fff;
+}
+
+.fanye a{
+    float: left;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 46px;
+    margin-right: 25px;
+    padding: 5px;
+}
+.fanye  a:nth-child(1){
+   margin-left: 415px;
+}
+.fanye  a:nth-child(2){
+    color: #099fe9;
+}
+.fanye  a:hover{
+    background-color: #099fe9;
+    color: #fff;
+}
+.xuanzhuan {
+    position: relative;
+    width: 335px;
+    height: 265px;
+    overflow: hidden;
+}
+.xuanzhua1{
+    position: absolute;
+    top: 20%;
+    left: -50%;
+    width: 600px;
+    height: 150px;
+}
+.xuanzhuan:hover .xuanzhua1{
+    animation: move 2s linear 0s infinite;
+    background-color: #15c09f;
+}
+.xuanzhuan2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.xuanzhuan3{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 331px;
+    height: 261px;
+    background-color: #fff;
+}
+@keyframes move{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+         transform: rotate(360deg);
+    }
+}
